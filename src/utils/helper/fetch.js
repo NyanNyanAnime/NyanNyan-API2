@@ -29,4 +29,4 @@ async function fetchHtml(url) {
     return response.data;
 }
 
-module.exports = fetchHtml;
+module.exports = { fetchHtml };

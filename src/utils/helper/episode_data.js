@@ -1,5 +1,5 @@
 const cheerio = require("cheerio");
-const fetchHtml = require("../helper/fetch")
+const { fetchHtml } = require("../helper/fetch")
 
 const getEpisodeList = async (url, episodeList = []) => {
   try {

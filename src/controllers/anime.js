@@ -3,7 +3,7 @@ const cheerio = require("cheerio");
 const baseUrl = require("../utils/constanta/url");
 const extractData = require("../utils/helper/extract_data");
 const getEpisodeList = require("../utils/helper/episode_data");
-const fetchHtml = require("../utils/helper/fetch");
+const { fetchHtml } = require("../utils/helper/fetch");
 
 const getOngoingAnime = async (req, res) => {
   try {
